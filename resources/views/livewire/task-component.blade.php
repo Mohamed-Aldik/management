@@ -34,7 +34,7 @@
                                     <div class="modal-body">
                                         <div class="form-check form-switch">
                                             <input class="form-check-input" wire:model.lazy="save" type="checkbox"
-                                                id="flexSwitchCheckChecked">
+                                                id="flexSwitchCheckChecked" value="1">
                                             <label class="form-check-label" for="flexSwitchCheckChecked">Save</label>
                                         </div>
                                         <div class="form-group">

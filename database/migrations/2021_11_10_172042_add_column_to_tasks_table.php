@@ -15,7 +15,7 @@ class AddColumnToTasksTable extends Migration
     {
         Schema::table('tasks', function (Blueprint $table) {
             $table->integer("important")->default(1);
-            $table->boolean("save")->default(0);
+            $table->boolean("save")->nullable();
 
         });
     }
